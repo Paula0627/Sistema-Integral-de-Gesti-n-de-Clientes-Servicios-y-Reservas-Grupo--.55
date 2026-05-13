@@ -27,7 +27,7 @@ class Cliente:
             raise ClienteInvalidoError("Teléfono inválido")
         self.__telefono = telefono
     
-     def get_nombre(self):
+    def get_nombre(self):
         return self.__nombre
 
     def mostrar_info(self):
